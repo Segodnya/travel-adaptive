@@ -73,6 +73,7 @@
 @media screen and (min-width: 988px) {
   .app {
     padding: 20px;
+    background-image: url(./images/tablet.avif);
   }
 
   .header {
@@ -107,6 +108,10 @@
 }
 
 @media screen and (min-width: 1220px) {
+  .app {
+    background-image: url(./images/desktop.avif);
+  }
+
   .header {
     height: 90px;
     justify-content: space-around;
