@@ -6,7 +6,7 @@
   flex-direction: column;
   align-items: center;
   color: var(--font);
-  background-image: url(./images/mobile.avif);
+  background-image: url(../images/mobile.avif);
 }
 
 .button-menu {
@@ -38,7 +38,7 @@
 }
 
 .header__button {
-  background-image: url(./images/menu-button.svg);
+  background-image: url(../images/menu-button.svg);
 }
 
 .main {
@@ -80,7 +80,7 @@
 @media screen and (min-width: 988px) {
   .app {
     padding: 20px;
-    background-image: url(./images/tablet.avif);
+    background-image: url(../images/tablet.avif);
   }
 
   .header {
@@ -116,7 +116,7 @@
 
 @media screen and (min-width: 1220px) {
   .app {
-    background-image: url(./images/desktop.avif);
+    background-image: url(../images/desktop.avif);
   }
 
   .header {

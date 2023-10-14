@@ -1,7 +1,7 @@
 import { useState, useRef, useEffect } from 'react';
 import './App.css';
-import { BurgerMenu } from './components/BurgerMenu';
-import { Logo } from './components/Logo';
+import { BurgerMenu } from './BurgerMenu';
+import { Logo } from './Logo';
 
 function App() {
   const [menuActive, setMenuActive] = useState(false);
