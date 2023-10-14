@@ -1,0 +1,27 @@
+.header__logo {
+  height: 40px;
+}
+
+.header__logo_device_mobile {
+  display: block;
+}
+
+.header__logo_device_desktop {
+  display: none;
+}
+
+@media screen and (min-width: 988px) {
+  .header__logo_device_mobile {
+    margin-right: 70px;
+  }
+}
+
+@media screen and (min-width: 1220px) {
+  .header__logo_device_mobile {
+    display: none;
+  }
+
+  .header__logo_device_desktop {
+    display: block;
+  }
+}

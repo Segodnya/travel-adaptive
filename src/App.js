@@ -1,18 +1,26 @@
-import { Link } from 'react-router-dom';
-import icon from './images/app-icon.svg';
 import './App.css';
+import { Logo } from './components/Logo';
 
 function App() {
   return (
     <div className="app">
       <header className="header">
-        <Link to="#" className="header__link">
-          <img src={icon} alt="app-icon" className="header__logo" />
-        </Link>
-        <button className="header__button" />
+        <Logo device="mobile" />
+        <div className="header__links-container">
+          <button className="header__button" />
+          <ul className="header__links">
+            <li>Календарь</li>
+            <li>Отзывы</li>
+            <li>
+              <Logo device="desktop" />
+            </li>
+            <li>Магазин</li>
+            <li>Контакты</li>
+          </ul>
+        </div>
       </header>
       <main className="main">
-        <h1 className="main__title">Путешествовать — круто!</h1>
+        <h1 className="main__title">Путешествовать —&nbsp;круто!</h1>
         <button className="main__button">Поехали с нами</button>
       </main>
     </div>
