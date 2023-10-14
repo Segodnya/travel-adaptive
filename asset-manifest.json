@@ -1,0 +1,19 @@
+{
+  "files": {
+    "main.css": "/travel-adaptive/static/css/main.86c1a486.css",
+    "main.js": "/travel-adaptive/static/js/main.6aa978b6.js",
+    "static/media/mobile.avif": "/travel-adaptive/static/media/mobile.6a2ddb6567bcbf4915f2.avif",
+    "static/media/tablet.avif": "/travel-adaptive/static/media/tablet.1f5c615703d467e664e9.avif",
+    "static/media/desktop.avif": "/travel-adaptive/static/media/desktop.1799a1f67521a14b82e5.avif",
+    "static/media/app-icon.svg": "/travel-adaptive/static/media/app-icon.b7cc5d80a8552a3569ff0698385c9503.svg",
+    "index.html": "/travel-adaptive/index.html",
+    "static/media/menu-button.svg": "/travel-adaptive/static/media/menu-button.e0da1d85a649ccc74350.svg",
+    "static/media/menu-close.svg": "/travel-adaptive/static/media/menu-close.6831fa9245ca5f0ea39a.svg",
+    "main.86c1a486.css.map": "/travel-adaptive/static/css/main.86c1a486.css.map",
+    "main.6aa978b6.js.map": "/travel-adaptive/static/js/main.6aa978b6.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.86c1a486.css",
+    "static/js/main.6aa978b6.js"
+  ]
+}
