@@ -2,9 +2,9 @@ import React from 'react';
 import './BurgerMenu.css';
 import { Logo } from './Logo';
 
-export const BurgerMenu = ({ menuActive, toggleMenu }) => {
+export const BurgerMenu = ({ menuActive, toggleMenu, menuRef }) => {
   return (
-    <div className={`burger-menu ${menuActive ? 'active' : ''}`}>
+    <div ref={menuRef} className={`burger-menu ${menuActive ? 'active' : ''}`}>
       <div className="burger-menu__header">
         <Logo device="mobile" />
         <button className="button-menu burger-menu__button" onClick={toggleMenu} />
