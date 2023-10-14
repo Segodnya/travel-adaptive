@@ -7,3 +7,5 @@ SPA, адаптированное под любые экраны.
 https://k-kurentsov.git.lab.karpov.courses/travel-adaptive
 
 ## Github Pages
+
+https://segodnya.github.io/travel-adaptive/
